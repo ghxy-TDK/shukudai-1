@@ -1,0 +1,28 @@
+<van-sidebar
+  active="{{ active }}"
+  bind:change="onChange"
+>
+  <!-- 循环遍历菜单项 -->
+  <block wx:for="{{ menu }}" wx:key="index">
+    <!-- 一级菜单项 -->
+    <van-sidebar-item
+      title="{{ item.title }}"
+      icon="{{ item.icon }}"
+      wx:if="{{ !item.submenu || showSubmenu !== index }}"
+      bindtap="toggleSubmenu"
+      data-index="{{ index }}"
+    />
+    
+    <!-- 如果有子菜单，则显示子菜单容器 -->
+    <block wx:if="{{ showSubmenu === index }}">
+      <view class="submenu-container">
+        <!-- 循环遍历子菜单项 -->
+        <block wx:for="{{ item.submenu }}" wx:key="title">
+          <view class="submenu-item" bindtap="onSubmenuItemTap" data-submenu-item="{{ item }}">
+            {{ item.title }}
+          </view>
+        </block>
+      </view>
+    </block>
+  </block>
+</van-sidebar>

@@ -1,0 +1,15 @@
+<view class="container">
+  <image src="https://s1.imagehub.cc/images/2024/12/24/7a166c5c49a89a6417fe62f4bcfd5327.jpg" class="background"></image>
+<navigator class="item" url="/pages/MOD/mods/Cmod004/mod001" open-type="navigate">
+<image src="{{image001}}"mode="widthFix"></image>
+<text>精灵宝可梦</text>
+</navigator>
+<navigator class="item" url="/pages/MOD/mods/Cmod004/mod002" open-type="navigate">
+<image src="{{image002}}"mode="widthFix"></image>
+<text>暮色森林</text> 
+</navigator>
+<navigator class="item" url="/pages/MOD/mods/Cmod004/mod003" open-type="navigate">
+<image src="{{image003}}"mode="widthFix"></image>
+<text>虚无世界3</text>
+</navigator>
+</view>

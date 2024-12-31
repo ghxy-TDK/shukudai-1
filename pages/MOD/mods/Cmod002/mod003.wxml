@@ -1,0 +1,46 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>本模组在不影响 MC 原有游戏机制的前提下，改变了游戏的多项视听体验。
+玩家可对这些特性高度自定义，而整合包作者也可根据需求调整生物群系和方块的效果。
+从 v3.5.4.0 开始，本模组中关于界面信息显示的内容独立成了一个模组:动态环境:信息显示。
+信息显示模组与动态环境模组的早期版本并不兼容，请确保你使用了合适的模组版本。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>模组内容讞鮰蛾翳裁
+注意:不同游戏版本所包含的内容有所不同。
+风暴:在发生降雨时，本模组会生成一个随机的风暴强度，该强度会影响以下几方面:(鉴于原版对天气做出了一些修改，该项在 117.1版本中被废弃未来可能会添加一些额外的效果，但不会再加入太大的改动)
+雨滴的密度\雨声的大小\天空中的闪电\沙漠/下界中的沙尘暴
+极光:当玩家在“极地”生物群系，如冰原和针叶林时，在晚上可以看到极光。极光出现时，其大小、形状和颜色都可能发生变化。
+</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text>环境背景音:当玩家位于不同的生物群系时，会听到不同的环境音，该环境音可能随时间、天气不同而不同并随着玩家到达不同群系时无缝切换。如在森林会听到鸟叫，沙滩上有海浪的声音，而在沼泽中可以听见蟋蟀等等。该特性并未覆盖原版音效，下界环境中均为原版音效。
+战斗音乐:在安装并激活相关资源包后，会在玩家附近发生战斗时播放特殊音乐。
+雷声替换:替换为更好的雷声(仅 1.17.1 版本)。</text>
+  </view>
+</view>
+<view class="container4">
+  <view class="text4-container">
+    <text>方块效果:方块可以拥有丰富的听觉与视觉效果，例如:
+。岩浆会形成飞溅出火花和火焰的岩浆喷口，其飞溅高度同岩浆深度有关湖泊、海洋、池塘的底部会生成气泡,在灵魂沙上行走会触发恶魔的笑声。走在木板上时会发出咯吱声。
+许多方块都会落灰,附近有岩浆时，水中会有蒸汽升腾,位于气候温和的生物群系时，可以在日落与晚上在花从周围看见萤火虫，在基地周围种植花朵可以引来萤火虫.瀑布会有水流声和水花四溅的效果</text> 
+  </view>
+  <view class="image4-container">
+    <image src="{{image004}}" mode="aspectFill"></image>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

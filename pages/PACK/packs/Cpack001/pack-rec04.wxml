@@ -1,0 +1,16 @@
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/VanillaPerfected.mp4" style="position: relative; left: 75rpx; top: 41rpx; width: 602rpx; display: inline-block; box-sizing: content-box"></video>
+<view class="Vani" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap"  style="position: relative; left: 341rpx; top: 103rpx">收藏</button>
+    <text class="Vani-text-titie" style="position: relative; left: -11rpx; top: 50rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Vani-text" style="position: relative; left: 150rpx; top: 14rpx">9/10</texx>
+    <text class="Vani-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 79rpx">简介</text>
+    <text class="Vani-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 98rpx">Vanilla Perfected 专注于完善原版体验，这个整合包在原版游戏的基础上做了大量的优化和调整，提升了性能和游戏的可玩性。它提供更多的功能、更多的设置选项和增强的视觉效果，但并不会脱离原版的核心体验。
+    </text>
+    <text class="Vani-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: 161rpx">特点</text>
+    <text class="Vani-text" style="position: relative; left: -11rpx; top: 321rpx; width: 611rpx; display: flex; box-sizing: border-box">保持原版的游戏风格和玩法，但加入了诸如质量提升、自动化系统等内容。</text>
+    <text class="Vani-text" style="width: 564rpx;  position: relative; left: -11rpx; top: 171rpx; height: 37rpx">增强视觉效果和界面设计，提升整体美观度。</text>
+    <text class="Vani-text" style="position: relative; left: -11rpx; top: 327rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">适合喜欢原版但希望有更多功能的玩家。</text>
+</view>
+
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image>

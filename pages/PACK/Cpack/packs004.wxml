@@ -1,0 +1,56 @@
+<view class="pack" style="width: 137rpx; display: block; box-sizing: border-box">
+<!-- //背景 -->
+<image src="https://pic.imgdb.cn/item/676a7becd0e0a243d4e93e1d.jpg" class="background"></image> 
+    <!-- 科技导航 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs001" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="height: 100rpx; display: block; box-sizing: border-box; width: 125rpx; left: 0rpx; top: 96rpx; position: relative">推荐</text>
+    </navigator>
+    <!-- 魔法导航 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs002" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="position: relative; left: 0rpx; top: 96rpx">魔法</text>
+    </navigator>
+    <!-- 冒险与战斗 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs003" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="position: relative; left: 0rpx; top: 96rpx">冒险与战斗</text>
+    </navigator>
+    <!-- 养老 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs004" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test1" style="position: relative; left: 0rpx; top: 96rpx">养老</text>
+    </navigator>
+    <!-- 硬核 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs005" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="position: relative; left: 0rpx; top: 96rpx">硬核</text>
+    </navigator><navigator class="pack-item"></navigator>
+    <!-- 综合 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs006" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="position: relative; left: 0rpx; top: 96rpx">科技</text>
+    </navigator>
+</view>
+<!-- 右边界面，推荐页面 -->
+<view class="pack-right" style="width: 600rpx; display: block; box-sizing: border-box; position: relative; left: 137rpx; top: -2368rpx; height: 0rpx" >
+<!-- 右边第一个界面 ，可以跳转-->
+    <navigator class="pack-right-item" style="width: 600rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -125rpx; height: 537rpx" url="/pages/PACK/packs/Cpack004/pack-old01">
+        <view class="pack-right-title" style="width: 243rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 25rpx">Top1</view>
+        <view class="pack-right-clasify" style="width: 350rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 43rpx">Beauté 4:魔法养老</view>
+        <image src="{{imgBeaut}}" style="width: 545rpx; display: inline-block; box-sizing: border-box; height: 281rpx; position: relative; left: 12rpx; top: 39rpx"></image>
+    </navigator>
+    <!-- 第二个界面 !-->
+    <navigator class="pack-right-item" style="width: 600rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -125rpx; height: 537rpx" url="/pages/PACK/packs/Cpack004/pack-old02">
+        <view class="pack-right-title" style="width: 243rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 25rpx">Top2</view>
+        <view class="pack-right-clasify" style="width: 450rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 43rpx">Craftoria:魔法硬核</view>
+        <image src="{{imgCraftoria}}" style="width: 545rpx; display: inline-block; box-sizing: border-box; height: 281rpx; position: relative; left: 12rpx; top: 39rpx"></image>
+    </navigator>
+    <!-- 第三个界面 -->
+    <navigator class="pack-right-item" style="width: 600rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -125rpx; height: 537rpx" url="/pages/PACK/packs/Cpack001/pack-rec03">
+        <view class="pack-right-title" style="width: 243rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 25rpx">Top3</view>
+        <view class="pack-right-clasify" style="width: 350rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 43rpx">Db's Farmtopia:魔法养老</view>
+        <image src="{{imgFarmtopia}}" style="width: 545rpx; display: inline-block; box-sizing: border-box; height: 281rpx; position: relative; left: 12rpx; top: 39rpx"></image>
+    </navigator>
+    <!-- 第4个界面 -->
+    <navigator class="pack-right-item" style="width: 600rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -125rpx; height: 537rpx" url="/pages/PACK/packs/Cpack002/pack-mag01">
+        <view class="pack-right-title" style="width: 243rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 25rpx">Top4</view>
+        <view class="pack-right-clasify" style="width: 300rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 43rpx">SkyFactory 4:魔法科技</view>
+        <image src="{{imgSky}}" style="width: 545rpx; display: inline-block; box-sizing: border-box; height: 281rpx; position: relative; left: 12rpx; top: 39rpx"></image>
+    </navigator>
+</view>
+

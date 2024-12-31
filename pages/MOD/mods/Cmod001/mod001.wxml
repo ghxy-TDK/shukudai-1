@@ -1,0 +1,43 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}" mode="aspectFill"></image>
+  </view>
+  <view class="text1-container">
+    <text>jei是一个用于查看物品及配方的 Minecraft 模组，从零开始构建，确保稳定性和性能。它在 CurseForge 上以超过 250,000,000 的总下载量稳居第一，是一个广为人知的经典模组。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>基本控制
+物品栏(Minecraft 选项->控制)
+显示配方(Recipes):将鼠标悬停在物品上+R;显示用途(Uses):将鼠标悬停在物品上 +U:·物品列表叠层(Overlay)开关:Ctrl+O
+物品列表
+显示配方:单击物品或键入 R:显示用途:右键单击物品或键入U;下/上一页:滑动滚轮，打开配置菜单:单击右下角的报手;作弊模式开关:Ctr +单击右下角的扳手，</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}" mode="aspectFill"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}" mode="aspectFill"></image>
+  </view>
+  <view class="text3-container">
+    <text>搜索
+选中搜索框:单击或 Ctrl+F;清除搜索:石键单击。上一个搜索词:上方向键;按模组名称搜索:在关键词前键入 @(@thaum)多个关键词同时使用(wand @thaum)。排除搜索关键词:在关键词前键入-(@thaum -wand)搜索包含空格的关键词: 在关键词周围输入""("two words").</text>
+  </view>
+</view>
+<view class="container4">
+  <view class="text4-container">
+    <text>查看配方。下/上一页:滑动滚轮;
+    显示所有配方:点击配方类别名称:将物品移至合成区:点击"+】按钮。
+    单击Shift键可移动多组物品。，</text>
+  </view>
+  <view class="image4-container">
+    <image src="{{image004}}" mode="aspectFill"></image>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/23/17157b1bc1ccdf67b2b4d66fb6d663f2.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>
+
+

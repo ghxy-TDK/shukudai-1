@@ -1,0 +1,34 @@
+<view class="enc-left">
+    <!-- 背景 -->
+    <image src="https://pic.imgdb.cn/item/676a5526d0e0a243d4e90d67.jpg" class="background"></image>
+    <!-- 第一个食物 -->
+    <view style="height: 0rpx; display: block; box-sizing: border-box" class="enc-item1">
+        <image class="enc-img" src="https://s1.imagehub.cc/images/2024/12/23/4110e2bbc8323a0a86e31bbb95fdaa6f.png" style="width: 246rpx; display: inline-block; box-sizing: border-box; height: 229rpx; position: relative; left: 42rpx; top: 88rpx"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: -149rpx">苹果</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: -202rpx">一种常见的食物，食用后可以恢复一定的饥饿值，也可以通过金块制作成金苹果，具有额外的效果。</view>
+    </view>
+    <!-- 第二个食物 -->
+    <view class="enc-item2">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/61e3e0c24c46ee2272f94245057988e0.png" class="enc-image" style="position: relative; left: 37rpx; top: 424rpx; width: 264rpx; height: 262rpx; display: inline-block; box-sizing: border-box"></image>
+        <text class="enc-title" style="position: relative; left: 375rpx; top: 184rpx">曲奇</text>
+        <text class="enc-text" style="position: relative; left: 375rpx; top: 116rpx">由小麦和可可豆制作而成，食用后可以恢复一定的饥饿值，属于较为低效的食物。</text>
+    </view>
+    <!-- 第三个食物 -->
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/67609820e54f2b60117e4ec08d6d8d61.png" class="enc-image" style="width: 274rpx; display: inline-block; box-sizing: border-box; height: 224rpx; left: 32rpx; top: 180rpx; position: relative"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: -32rpx">面包</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: -117rpx; height: 273rpx; display: flex; box-sizing: border-box">由小麦制作而成，食用后可以恢复一定的饥饿值。常见的基础食物，容易制作。</view>
+    </view>
+    <!-- 第4个食物 -->
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/c49230c54784764d8a2094c70b185aa6.png" class="enc-image" style="position: relative; left: 25rpx; top: 509rpx; width: 273rpx; height: 213rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 316rpx">生鸡肉</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 237rpx">可以通过杀死鸡获得，生鸡肉需要烹饪成熟鸡肉才能恢复更多的饥饿值。</view>
+    </view>
+    <!-- 第5个 -->
+    <view class="enc-item3">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/ccb2e1d5080cb5f176f7eece27cdbdd0.png" class="enc-image" style="position: relative; left: 27rpx; top: 838rpx; width: 276rpx; height: 210rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 604rpx">生牛肉</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 543rpx; height: 276rpx; display: flex; box-sizing: border-box">可以通过杀死牛获得，生牛肉需要烹饪成熟牛肉，食用后能恢复较高的饥饿值。</view>
+    </view>
+</view>

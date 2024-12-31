@@ -1,0 +1,36 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>广受好评的建筑辅助插件 WorldEdit 创世神的模组版本!
+平滑自然地形的建筑师们感到辛苦了吧?
+一块一块放置方块的建筑师们感到痛苦了吧?
+想要建造一个圆的建筑师受够了自己计算了吧?
+这款模组可以帮助你!</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>保留了插件版 WorldEdit 的大部分功能快拿起你的小木斧改变世界吧！
+      与 Worldtdit Wrapper 不同，此模组使用 Forge 或 Fabric;Fabric 版还需要 Fabric AP!作为前置</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text>
+游戏内使用方法与插件版相同，可参阅 插件百科的 WoridEdit 页面(略有过时)和 官方的文档(英文)。有兴趣有空且会英语的玩家可以将官方文档翻
+译成中文放在插件百科。WorldEdit Wiki(此为插件百科，但不影响 API版使用):见此,
+Mineplugin 维基已经过时，此为参考蓝鸡及原译的新版维基:
+。</text>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>
+

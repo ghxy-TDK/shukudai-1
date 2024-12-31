@@ -1,0 +1,17 @@
+<image src="https://pic.imgdb.cn/item/676a222ed0e0a243d4e8dbad.png" style="position: relative; left: 68rpx; top: 0rpx"></image>
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image><image src="ub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png"></image>
+<view class="Rlc" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap" style="position: relative; left: 304rpx; top: -458rpx; height: 60rpx; display: block; box-sizing: border-box">收藏</button>
+    <text class="Rlc-text-titie" style="position: relative; left: 4rpx; top: -517rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Rlc-text" style="position: relative; left: 201rpx; top: -556rpx">10/10</texx>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: -522rpx">简介</text>
+    <text class="Rlc-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -522rpx">SkyFactory 4 是一款极受欢迎的空岛生存模组，它是 SkyFactory 系列的第四部作品。在这个模组中，玩家从一个小岛开始，只有一颗树和几块泥土。玩家需要依靠有限的资源，通过自动化、科技进展和魔法手段逐步扩展自己的岛屿。
+    </text>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: -449rpx">特点</text>
+    <text class="Rlc-text" style="position: relative; left: 0rpx; top: -313rpx; width: 611rpx; display: flex; box-sizing: border-box">结合了多种技术与魔法元素，可以通过多种方式拓展岛屿。</text>
+    <text class="Rlc-text" style="width: 564rpx; position: relative; left: 4rpx; top: -472rpx; height: 37rpx">以选择不同的游戏模式和世界生成方式，适合不同玩家的需求。</text>
+    <text class="Rlc-text" style="position: relative; left: 4rpx; top: -297rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">内置任务系统提供了明确的游戏目标和挑战，帮助玩家逐步解锁新技术和新材料。</text>
+
+</view>
+ 

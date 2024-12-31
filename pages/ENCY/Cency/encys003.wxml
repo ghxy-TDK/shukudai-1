@@ -1,0 +1,39 @@
+<view class="enc-left">
+    <!-- 背景 -->
+    <image src="https://pic.imgdb.cn/item/676a5534d0e0a243d4e90d8f.jpg" class="background" style="position: fixed; left: 0rpx; top: -30rpx"></image>
+    <!-- 第一个杂货 -->
+    <view style="height: 0rpx; display: block; box-sizing: border-box" class="enc-item1">
+        <image class="enc-img" src="https://pic.imgdb.cn/item/6769621cd0e0a243d4e8a2f9.png" style="width: 246rpx; display: inline-block; box-sizing: border-box; height: 229rpx; position: relative; left: 42rpx; top: 88rpx"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: -149rpx">末影珍珠</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: -202rpx">可以用来传送到玩家视线范围内的一个点，通常用于快速移动或逃脱战斗，也用于制作末影之眼。</view>
+    </view>
+    <!-- 第二个杂货 -->
+    <view class="enc-item2">
+        <image src="https://s1.imagehub.cc/images/2024/12/22/ed719658218a73e972948e34326610f7.png" class="enc-image" style="position: relative; left: 450rpx; top: 450rpx; width: 264rpx; height: 262rpx; display: inline-block; box-sizing: border-box"></image>
+        <text class="enc-title" style="position: relative; left: 38rpx; top: 183rpx">红石</text>
+        <text class="enc-text" style="position: relative; left: 37rpx; top: 130rpx">红石可以用于制作各种红石电路、机关和设备，常用于自动化、开关等功能。</text>
+    </view>
+    <!-- 第三个杂货 -->
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://pic.imgdb.cn/item/6769639cd0e0a243d4e8a337.png" class="enc-image" style="width: 274rpx; display: inline-block; box-sizing: border-box; height: 224rpx; left: 32rpx; top: 180rpx; position: relative"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: -32rpx">沙子</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: -117rpx; height: 273rpx; display: flex; box-sizing: border-box">常见的方块，可通过风暴制作玻璃。沙子可以在海滩或沙漠中找到。</view>
+    </view>
+    <!-- 第4个杂货 -->
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://pic.imgdb.cn/item/6769639ad0e0a243d4e8a336.png" class="enc-image" style="position: relative; left: 419rpx; top: 552rpx; width: 273rpx; height: 213rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 37rpx; top: 315rpx">铁锭</view>
+        <view class="enc-text" style="position: relative; left: 38rpx; top: 249rpx">用铁矿石在炉子中冶炼得到，可以用于制作各种工具、武器和盔甲。</view>
+    </view>
+    <!-- 第5个杂货 -->
+    <view class="enc-item3">
+        <image src="https://pic.imgdb.cn/item/6769639dd0e0a243d4e8a339.png" class="enc-image" style="position: relative; left: 53rpx; top: 873rpx; width: 276rpx; height: 210rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 640rpx">煤炭</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 570rpx; height: 276rpx; display: flex; box-sizing: border-box">可以通过采集煤矿石得到，主要用作燃料，也可以用于制作火把。</view>
+    </view>
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/3686797df125ef082827d346cf431724.png" class="enc-image" style="position: relative; left: 410rpx; top: 625rpx; width: 285rpx; height: 239rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 37rpx; top: 379rpx">腐肉</view>
+        <view class="enc-text" style="position: relative; left: 38rpx; top: 314rpx">由僵尸掉落，食用后有可能会引发中毒状态。虽然恢复饥饿值，但不建议常吃。</view>
+    </view>
+</view>

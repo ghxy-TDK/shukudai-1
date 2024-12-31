@@ -1,0 +1,28 @@
+<view class="grids">
+<navigator class="grids-item" url="/pages/MOD/Cmod/mods001" open-type="navigate">
+<image src="{{images1}}"mode="widthFix"></image>
+<text>功能类mod</text>
+</navigator>
+<navigator class="grids-item" url="/pages/MOD/Cmod/mods002"open-type="navigate">
+<image src="{{images2}}"mode="widthFix"></image>
+<text>美化类mod</text>
+</navigator>
+<navigator class="grids-item" url="/pages/MOD/Cmod/mods003" open-type="navigate">
+<image src="{{images3}}"mode="widthFix"></image>
+<text>趣味类mod</text>
+</navigator>
+<navigator class="grids-item" url="/pages/MOD/Cmod/mods004" open-type="navigate">
+<image src="{{images4}}"mode="widthFix"></image>
+<text>冒险类mod</text>
+</navigator>
+<navigator class="grids-item" url="/pages/MOD/Cmod/mods005" open-type="navigate">
+<image src="{{images5}}"mode="widthFix"></image>
+<text>建筑类mod</text>
+</navigator>
+<navigator class="grids-item" url="/pages/MOD/Cmod/mods006"open-type="navigate">
+<image src="{{images7}}"mode="widthFix"></image>
+<text>生物类mod</text>
+</navigator>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/17/bd5a847dfea031095e8f757494170de0.jpg" class="background"></image>
+

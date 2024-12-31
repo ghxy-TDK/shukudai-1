@@ -1,0 +1,14 @@
+<view class="container">
+  <image src="https://s1.imagehub.cc/images/2024/12/17/363e3882390517966bc3f921acb510d0.jpg" class="background"></image>
+  <view class="content">
+    <text class="title">Welcome to My Minecraft World</text>
+    <button class="generate-btn" bindtap="generateMap">创建地图</button>
+    <view wx:if="{{mapUrl}}" class="map-container">
+      <image src="{{mapUrl}}" mode="widthFix"></image>
+    </view>
+    <view wx:if="{{seed}}" class="seed-container">
+      <text class="seed-label">地图种子:</text>
+      <text class="seed-value">{{seed}}</text>
+    </view>
+  </view>
+</view>

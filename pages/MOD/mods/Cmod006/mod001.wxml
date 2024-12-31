@@ -1,0 +1,38 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>如果你认为原版的怪物萌不起来，那就试试这个模组吧，将他们萌娘化。这个 Mod 绝对会满足你的需求。
+生原作者 ix(来自已关闭的日本论坛，原贴有待考证)弃坑后，由新的作者 Yarrmateys 来进行更新。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>怪物旧模型大量更改，主要都是来自与 AT2 大创作的 Minecraft 娘化系列。现在的的萌娘模型有:烈焰娘、爬行者娘、高压爬行者娘、恶魂娘、骷髅娘、凋灵骷髅娘、、</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text>史莱姆与岩浆史菜姆娘(御姐、少女和萝莉)、蜘蛛娘、洞穴蜘蛛娘、女娘、僵尸娘(伪)、娘、狼娘、哞菇娘、守卫者娘、远古守卫者娘、尸壳、流髑和一个新增的恶魂 Sister。
+蠹虫娘,僵尸村民娘、雪傀儡娘</text>
+  </view>
+</view>
+<view class="container4">
+  <view class="text4-container">
+    <text>1.12.2 之后有 emmie 4 制作的资源包，并处于活跃更新状态。
+修改的生物中被动的有:猪、牛、羊、马、驴、骡、鸡、蝙蝠、豹猫、猫、鱿鱼、鳕鱼、海豚、熊猫(1.14+)、狐狸(1.14+)，敌对的有:潜影贝，未
+影螨、卫道士、唤魔者、恼鬼、幻翼、溺尸、掠夺者(1.14+)、猪灵(1.16+)、猪灵蛮兵(1.16+)</text>
+  </view>
+  <view class="image4-container">
+    <image src="{{image004}}" mode="aspectFill"></image>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

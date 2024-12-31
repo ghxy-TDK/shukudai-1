@@ -1,0 +1,11 @@
+<!--pages/map/Cmap/parkour/1.wxml-->
+<!-- <text>pages/map/Cmap/parkour/1.wxml</text> -->
+<view class="grids">
+  <image src="https://ts1.cn.mm.bing.net/th/id/R-C.40889477f5b59c8bc9b8e5f17d98d829?rik=WZWRooYDHUcdMQ&riu=http%3a%2f%2fwww.downxia.com%2fuploadfiles%2f2021%2f0407%2f20210407012321658.jpg&ehk=Zbs1jq5gpuq0c2SZ%2ba8WczCBKRTg2UkYNCLUCLIliF8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" class="background"></image>
+
+  <navigator class="item" url="/pages/MAP/maps/parkour/parkour_1/parkour_1" open-type="navigate">
+    <image src="{{image_1}}"mode="widthFix"></image>
+    <text>跑酷实验室:矿车平台</text>
+  </navigator>
+
+</view>

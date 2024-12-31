@@ -1,0 +1,18 @@
+<image src="https://pic.imgdb.cn/item/676a222ad0e0a243d4e8dba6.png" style="position: relative; left: 68rpx; top: 0rpx"></image>
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image><image src="ub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png"></image>
+<view class="Rlc" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap" style="position: relative; left: 304rpx; top: -458rpx; height: 60rpx; display: block; box-sizing: border-box">收藏</button>
+    <text class="Rlc-text-titie" style="position: relative; left: 4rpx; top: -517rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Rlc-text" style="position: relative; left: 201rpx; top: -556rpx">9/10</texx>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: -522rpx">简介</text>
+    <text class="Rlc-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -522rpx">"剑拔弩张之时"是一个着重战斗和策略的模组。玩家可以使用不同的剑和弩来进行战斗，模组加强了武器的种类、攻击方式以及战斗中的策略性。玩家可以制作更强大的武器，面对越来越强的敌人和挑战。
+    </text>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: -449rpx">特点</text>
+    <text class="Rlc-text" style="position: relative; left: 0rpx; top: -313rpx; width: 611rpx; display: flex; box-sizing: border-box">除了传统的剑和弓箭，增加了多种新武器，如长剑、弩、巨剑等，战斗更加多样化。</text>
+    <text class="Rlc-text" style="width: 564rpx; position: relative; left: 4rpx; top: -472rpx; height: 37rpx">战斗不再单纯依靠攻击力，还需要考虑武器的特性、耐久度以及战斗中的站位等。
+</text>
+    <text class="Rlc-text" style="position: relative; left: 4rpx; top: -297rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">模组允许玩家对武器进行改造和升级，打造最适合自己的战斗装备。</text>
+
+</view>
+ 

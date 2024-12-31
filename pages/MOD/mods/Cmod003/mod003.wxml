@@ -1,0 +1,14 @@
+<view class="container" style="width: 564rpx; display: flex; box-sizing: border-box">
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/qiyi.mp4" style="position: relative; width: 100%; left: 89rpx; top: -199rpx"></video>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/d8bc8830d668bd738828014eaead8463.jpg" class="background"></image>
+<view class="image-item" style="position: absolute; left: 85rpx; top: 728rpx">
+<image src="{{image001}}" style="position: relative; left: -86rpx; top: -236rpx; height: 320rpx; display: inline-block; box-sizing: border-box; width: 395rpx"></image>
+</view>
+<view class="text-item">
+<text style="position: relative; left: 0rpx; top: 20rpx">mod推荐：奇异饰品</text>
+<text style="position: relative; left: 0rpx; top: 81rpx">
+  Artifacts 添加了许多无法合成的强力饰品，给冒险增添趣味。这个模组添加的饰品可以在原版结构中的箱子中找到，同时也添加了一个新的地下结构。Mimics 是一种新的敌对生物，平时会伪装成箱子的样子，在玩家靠近时攻击玩家佩戴 Artifacts 中的饰品后，每个饰品都会有独特的模型被展示出来。使用本模组的前置LB"curios”通过指令/curios add/set 饰品栏位名 玩家名 数量 来增加或设置你的饰品栏位数量来佩戴更多的饰品
+</text>
+</view>
+<button bind:tap="onFavoriteTap">收藏</button>

@@ -1,0 +1,24 @@
+<!--pages/MAP/maps/decrypting/decrypting_1/decrypting_1.wxml-->
+<!-- <text>pages/MAP/maps/decrypting/decrypting_1/decrypting_1.wxml</text> -->
+<view class="grids">
+  <image src="https://tse2-mm.cn.bing.net/th/id/OIP-C.2pFYBK6rQ1Y23ZvRybOXIgHaEK?w=276&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" class="background">
+  </image>
+
+  <video style="height: 240px; width:750rpx;"
+    src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/%E5%BD%BC%E5%B2%B8%E4%B9%8B%E8%88%9E.mp4">
+  </video>
+  <button bind:tap="onFavoriteTap">收藏</button>
+  <view class="container">
+    <view class="header">
+      <text>我的世界地图:彼岸之舞  </text>
+    </view>
+    <view class="material-list">
+      <block wx:for="{{materials}}" wx:key="id">
+        <view class="material-item">
+          <image src="{{item.image}}" mode="aspectFill"></image>
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

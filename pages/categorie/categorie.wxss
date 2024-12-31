@@ -1,0 +1,18 @@
+.submenu-container {
+  /* 自定义二级菜单容器样式 */
+  position: absolute;
+  top: 100%; /* 放置在侧边栏下方 */
+  left: 0;
+  width: 100%; /* 或其他合适的宽度 */
+  background-color: #fff;
+  z-index: 1;
+  /* 其他样式，如边框、阴影等 */
+}
+
+.submenu-item {
+  /* 自定义二级菜单项样式 */
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* 其他样式，如悬停效果（虽然微信小程序不支持真正的悬停效果） */

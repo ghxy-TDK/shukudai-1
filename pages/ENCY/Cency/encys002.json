@@ -1,0 +1,6 @@
+{
+    "usingComponents": {},
+    "navigationBarTitleText": "百科",
+    "navigationBarBackgroundColor": "#C1FFC1",
+    "enablePullDownRefresh": true
+  }

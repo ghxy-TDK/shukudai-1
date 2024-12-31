@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(5px); /* 模糊背景图片 */
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.title {
+  font-size: 32px;
+  color: #333; /* 字体颜色 */
+  margin-bottom: 30px;
+}
+.generate-btn {
+  background-color: #007aff; /* 按钮背景色 */
+  color: white; /* 按钮文字颜色 */
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 18px;
+}
+.map-container {
+  margin-top: 20px;
+}
+image {
+  width: 100%;
+  max-width: 600px; /* 最大宽度限制 */
+}
+.seed-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.seed-label {
+  font-size: 18px;
+  color: #333; /* 字体颜色 */
+}
+.seed-value {
+  font-size: 24px;
+  color: #007aff; /* 字体颜色 */
+}

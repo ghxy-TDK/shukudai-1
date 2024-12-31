@@ -1,0 +1,57 @@
+<view class="pack" style="width: 137rpx; display: block; box-sizing: border-box">
+<!-- //背景 -->
+<image src="https://pic.imgdb.cn/item/676a7bf0d0e0a243d4e93e21.jpg" class="background"></image> 
+    <!-- 科技导航 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs001" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="height: 100rpx; display: block; box-sizing: border-box; width: 125rpx; left: 0rpx; top: 96rpx; position: relative">推荐</text>
+    </navigator>
+    <!-- 魔法导航 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs002" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="position: relative; left: 0rpx; top: 96rpx">魔法</text>
+    </navigator>
+    <!-- 冒险与战斗 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs003" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test1" style="position: relative; left: 0rpx; top: 96rpx">冒险与战斗</text>
+    </navigator>
+    <!-- 养老 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs004" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="position: relative; left: 0rpx; top: 96rpx">养老</text>
+    </navigator>
+    <!-- 硬核 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs005" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="position: relative; left: 0rpx; top: 96rpx">硬核</text>
+    </navigator><navigator class="pack-item"></navigator>
+    <!-- 综合 -->
+    <navigator class="pack-left-item" bindtap="onNavClick" url="/pages/PACK/Cpack/packs006" style="height: 425rpx; display: flex; box-sizing: border-box">
+        <text class="pack-left-test" style="position: relative; left: 0rpx; top: 96rpx">科技</text>
+    </navigator>
+</view>
+<!-- 右边界面，推荐页面 -->
+<view class="pack-right" style="width: 600rpx; display: block; box-sizing: border-box; position: relative; left: 137rpx; top: -2368rpx; height: 0rpx" >
+<!-- 右边第一个界面 ，可以跳转-->
+    <navigator class="pack-right-item" style="width: 600rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -125rpx; height: 537rpx" url="/pages/PACK/packs/Cpack001/pack-rec01">
+        <view class="pack-right-title" style="width: 243rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 25rpx">Top1</view>
+        <view class="pack-right-clasify" style="width: 300rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 43rpx">RLCraft:冒险探索</view>
+        <image src="{{imgRLcraft}}" style="width: 545rpx; display: inline-block; box-sizing: border-box; height: 281rpx; position: relative; left: 12rpx; top: 39rpx"></image>
+    </navigator>
+    <!-- 第二个界面 !-->
+    <navigator class="pack-right-item" style="width: 600rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -125rpx; height: 537rpx" url="/pages/PACK/packs/Cpack001/pack-rec02">
+        <view class="pack-right-title" style="width: 243rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 25rpx">Top2</view>
+        <view class="pack-right-clasify" style="width: 300rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 43rpx">Shattered:冒险养老</view>
+        <image src="{{imgShattered}}" style="width: 545rpx; display: inline-block; box-sizing: border-box; height: 281rpx; position: relative; left: 12rpx; top: 39rpx"></image>
+    </navigator>
+    <!-- 第三个界面 -->
+    <navigator class="pack-right-item" style="width: 600rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -125rpx; height: 537rpx" url="/pages/PACK/packs/Cpack003/pack-adv01">
+        <view class="pack-right-title" style="width: 243rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 25rpx">Top3</view>
+        <view class="pack-right-clasify" style="width: 300rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 43rpx">Reminiscence:冒险</view>
+        <image src="{{imgReminiscence}}" style="width: 545rpx; display: inline-block; box-sizing: border-box; height: 281rpx; position: relative; left: 12rpx; top: 39rpx"></image>
+    </navigator>
+    <!-- 第4个界面 -->
+    <navigator class="pack-right-item" style="width: 600rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -125rpx; height: 537rpx" url="/pages/PACK/packs/Cpack003/pack-adv02">
+        <view class="pack-right-title" style="width: 243rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 25rpx">Top4</view>
+        <view class="pack-right-clasify" style="width: 300rpx; display: block; box-sizing: border-box; position: relative; left: 12rpx; top: 43rpx">HazardousDaniel's Unlimited:冒险科技</view>
+        <image src="{{imgHazardousDaniel}}" style="width: 545rpx; display: inline-block; box-sizing: border-box; height: 281rpx; position: relative; left: 12rpx; top: 39rpx"></image>
+    </navigator>
+</view>
+
+

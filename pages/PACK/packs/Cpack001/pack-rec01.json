@@ -1,0 +1,6 @@
+{
+    "usingComponents": {},
+    "navigationBarTitleText": "整合包",
+    "navigationBarBackgroundColor": "#C1FFC1",
+    "enablePullDownRefresh": true
+  }

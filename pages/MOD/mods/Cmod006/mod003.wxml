@@ -1,0 +1,30 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>Alex 的生物是-个将许多生物加入Minecraft使游戏变得更加有趣味的模组。
+本模组的生物被分为两类:一类为现实生物，另一类则是虚构生物。
+所有的新增的生物，都具有自己特有的掉落物、机制和功能，并没有纯粹的仅用来增加游戏美感的生物。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>换而言之，它们还有助于在游戏中使某些环境令人感觉更加真实生动。不同于一些获得材料的方式基本只有杀戮这一条道路的动物模组，Alex 的生物中的很多东西都需要通过运用生物的特殊机制和功能来获取。。</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text>遵循传统的原版规则，稀有或濒灭绝的动物没有只能通过击杀获得的掉落物。
+模组生物的模型、纹理、动作效果和 AI 都是为了更加贴近原版，使它们能更好地融入原版
+</text>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

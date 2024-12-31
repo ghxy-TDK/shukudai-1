@@ -1,0 +1,60 @@
+<view class="login-container" wx:if="{{!logAreaShow}}">
+  <image class="icon" src=" " mode="widthFix" style="width: 100rpx; height: auto;"></image>
+  <button type="primary" class="btn-login" bind:tap="showPopup">一键登录</button>
+  <text class="tips-text">登录后尽享更多权益</text>
+</view>
+  
+<van-popup show="{{show}}" bind:close="onClose" position="bottom" custom-style="height: 30%;" class="pop_login" close-on-click-overlay="false">
+  <view class="pop_content">
+    <view class="pop_tip">授权登录</view>
+    <button wx:if="{{!avatarUrl}}" class="pop_avatar" open-type="chooseAvatar" bindchooseavatar="getAvatar"> 获取头像 </button>
+    <image wx:if="{{avatarUrl}}" src="{{avatarUrl}}" class="pop_img"></image>
+    <input type="nickname" class="pop_name" bindblur="getName" placeholder="获取昵称"/>
+    <view>
+      <view wx:if="{{nickName}}">
+        <view wx:if="{{avatarUrl}}">
+          <van-button round type="info" color="linear-gradient(to right, #DA291C, #9A3324)" bind:tap="onCloseN">取消</van-button>
+          <van-button round type="info" color="linear-gradient(to right, #00AD6F, #5CAA7F)" bind:tap="onCloseY">确认</van-button>
+        </view>
+      </view>
+      <view wx:if="{{!nickName}}">
+        <view wx:if="{{!avatarUrl}}">
+          <van-button round type="info" color="linear-gradient(to right, #DA291C, #9A3324)" bind:tap="onCloseN">取消</van-button>
+          <van-button round type="info" color="#EEEEEE">确认</van-button>
+        </view>  
+      </view>
+      <view wx:if="{{!nickName}}">
+        <view wx:if="{{avatarUrl}}">
+          <van-button round type="info" color="linear-gradient(to right, #DA291C, #9A3324)" bind:tap="onCloseN">取消</van-button>
+          <van-button round type="info" color="#EEEEEE">确认</van-button>
+        </view>  
+      </view>
+      <view wx:if="{{nickName}}">
+        <view wx:if="{{!avatarUrl}}">
+          <van-button round type="info" color="linear-gradient(to right, #DA291C, #9A3324)" bind:tap="onCloseN">取消</van-button>
+          <van-button round type="info" color="#EEEEEE">确认</van-button>
+        </view>  
+      </view>
+    </view>
+  </view>
+</van-popup>
+
+<view class="loginArea" wx:if="{{logAreaShow}}">
+  <image wx:if="{{avatarUrl}}" src="{{avatarUrl}}" class="userAvatar"></image>
+  <view wx:if="{{nickName}}" class="userNickName">{{nickName}}</view>
+</view>
+
+<view wx:if="{{logAreaShow}}" >
+  <van-grid clickable column-num="4" square icon-size="100rpx" center="true" direction="vertical" >
+    <van-grid-item icon="like-o" link-type="navigateTo" url="/pages/like/like"/>
+    <van-grid-item icon="star-o" link-type="navigateTo" url="/pages/star/star"/>
+    <van-grid-item icon="todo-list-o" link-type="navigateTo" url="/pages/star/star"/>
+    <van-grid-item icon="setting-o" link-type="navigateTo" url="/pages/setting/setting"/>
+  </van-grid>
+  <van-divider />
+  <van-cell title="联系客服" is-link clickable bind:click="contact"/>
+  <van-divider />
+  <van-cell title="关于我们" is-link clickable bind:click="about_us"/>
+  <van-divider />
+  <van-cell title="退出登录" is-link clickable bind:click="logout"/>
+</view>

@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<swiper class="swiper-item" indicator-dots indicator-color="white" indicator-active-color="grey" autoplay interval="5000">
+<swiper-item>
+  <image src="{{swiperitem_Image1}}" mode="aspectFit"></image>
+</swiper-item>
+<swiper-item>
+  <image src="{{swiperitem_Image2}}" mode="aspectFit"></image>
+</swiper-item>
+<swiper-item>
+  <image src="{{swiperitem_Image3}}" mode="aspectFit"></image>
+</swiper-item>
+<swiper-item>
+  <image src="{{swiperitem_Image4}}" mode="aspectFit"></image>
+</swiper-item>
+<!-- <swiper-item>
+  <image src="{{swiperitem_Image5}}" mode="aspectFit"></image>
+</swiper-item> -->
+</swiper>
+<van-divider />
+<van-grid clickable column-num="3" square icon-size="300rpx" center="true" direction="vertical" >
+  <van-grid-item icon="{{homeImage4}}" link-type="navigateTo" url="/pages/mc-maps/mc-maps"/>
+  <van-grid-item icon="{{homeImage5}}" link-type="navigateTo" url="/pages/mc-mods/mc-mods"/>
+  <van-grid-item icon="{{homeImage6}}" link-type="navigateTo" url="/pages/mc-modpacks/mc-modpacks"/>
+  <van-grid-item icon="{{homeImage1}}" link-type="navigateTo" url="/pages/mc-shadow/mc-shadow"/>
+  <van-grid-item icon="{{homeImage3}}" link-type="navigateTo" url="/pages/mc-wiki/mc-wiki"/>
+  <van-grid-item icon="{{homeImage2}}" link-type="navigateTo" url="/pages/mc-tips/mc-tips"/>
+</van-grid>

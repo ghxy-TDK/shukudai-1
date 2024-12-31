@@ -1,0 +1,44 @@
+<navigator class="item1" url="/pages/SHADOW/shadows/shadow001" open-type="navigate">
+  <view class="image1-container">
+    <image src="{{image001}}" mode="aspectFill"></image>
+  </view>
+  <view class="text1-container">
+    <text>光影推荐1：Chocapic13_V9_Extreme
+    特点：
+    写实风格，效果细腻，
+  添加了树叶摇晃效果，真实光照效果，更好的水面效果。</text>
+  </view>
+</navigator>
+<navigator class="item2" url="/pages/SHADOW/shadows/shadow002" open-type="navigate">
+  <view class="image2-container">
+    <image src="{{image002}}" mode="aspectFill"></image>
+  </view>
+  <view class="text2-container">
+    <text>光影推荐2：iterationT Next
+    特点：
+    温馨风格，色彩鲜艳
+    全新体积云和体积雾、全局光照优化、新的环境光遮蔽算法、全新景深算法、PBR系统更新、视差优化等。</text>
+  </view>
+</navigator>
+<navigator class="item3" url="/pages/SHADOW/shadows/shadow003" open-type="navigate">
+  <view class="image3-container">
+    <image src="{{image003}}" mode="aspectFill"></image>
+  </view>
+  <view class="text3-container">
+    <text>光影推荐3：SEUS_PTGI
+    特点：
+     它通过先进的光影渲染技术，为游戏世界带来了近乎真实的光照、反射和全局照明效果，极大地提升了游戏的沉浸感。</text>
+  </view>
+</navigator>
+<navigator class="item4" url="/pages/SHADOW/shadows/shadow004" open-type="navigate">
+  <view class="image4-container">
+    <image src="{{image004}}" mode="aspectFill"></image>
+  </view>
+  <view class="text4-container">
+    <text>光影推荐4：Bliss
+      Bliss光影主要是基于Chocapic13光影进行魔改的光影，在Chocapic13光影自定义功能上做出了更多的调整项，整款光影配置要求不高，而且画面表现优秀，兼容性很不错。</text>
+  </view>
+</navigator>
+<image src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/nitu.jpg" class="background"></image>
+
+

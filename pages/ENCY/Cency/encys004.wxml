@@ -1,0 +1,49 @@
+<view class="enc-left">
+    <!-- 背景 -->
+    <image src="https://pic.imgdb.cn/item/676a69afd0e0a243d4e93681.jpg" class="background" style="position: fixed; left: 0rpx; top: -30rpx"></image>
+    <!-- 第一个工具 -->
+    <view style="height: 0rpx; display: block; box-sizing: border-box" class="enc-item1">
+        <image class="enc-img" src="https://s1.imagehub.cc/images/2024/12/23/bb075aff90dcf47a8516683d705e06d3.png" style="width: 246rpx; display: inline-block; box-sizing: border-box; height: 229rpx; position: relative; left: 467rpx; top: 88rpx"></image>
+        <view class="enc-title" style="position: relative; left: 38rpx; top: -130rpx">绿宝石矿</view>
+        <view class="enc-text" style="position: relative; left: 38rpx; top: -202rpx">绿宝石矿是非常稀有的矿石，通常在极深的地下发现，开采后掉落绿宝石，绿宝石可用来与村民交易。</view>
+    </view>
+    <!-- 第二个工具 -->
+    <view class="enc-item2">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/da4cc0599fb20ff901faf9f843eb87ef.png" class="enc-image" style="position: relative; left: 37rpx; top: 424rpx; width: 264rpx; height: 262rpx; display: inline-block; box-sizing: border-box"></image>
+        <text class="enc-title" style="position: relative; left: 375rpx; top: 184rpx">钻石矿</text>
+        <text class="enc-text" style="position: relative; left: 375rpx; top: 116rpx">钻石矿是《我的世界》中最强的矿石，开采后掉落钻石，用于制作强力工具和装备。</text>
+    </view>
+    <!-- 第三个工具 -->
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/1d9c97d00a16731c941517be341d1380.png" class="enc-image" style="width: 274rpx; display: inline-block; box-sizing: border-box; height: 224rpx; left: 439rpx; top: 199rpx; position: relative"></image>
+        <view class="enc-title" style="position: relative; left: 69rpx; top: -68rpx">红石矿</view>
+        <view class="enc-text" style="position: relative; left: 69rpx; top: -134rpx; height: 273rpx; display: flex; box-sizing: border-box">红石矿开采后会掉落红石，红石可用于制作各种红石电路、机关和设备。</view>
+    </view>
+    <!-- 第4个工具 -->
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/233257e59dae3293ec0c23ec99738b76.png" class="enc-image" style="position: relative; left: 25rpx; top: 509rpx; width: 273rpx; height: 213rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 316rpx">金矿</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 237rpx">金矿开采后掉落金锭，金锭用于制作金色工具、盔甲等。</view>
+    </view>
+    <!-- 第5个 -->
+    <view class="enc-item3">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/24d0d7bd7daa9bba57ae86765d59673d.png" class="enc-image" style="position: relative; left: 414rpx; top: 856rpx; width: 276rpx; height: 210rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 37rpx; top: 605rpx">铁矿</view>
+        <view class="enc-text" style="position: relative; left: 38rpx; top: 552rpx; height: 276rpx; display: flex; box-sizing: border-box">铁矿是常见的矿石，开采后掉落铁锭，是制作铁工具、铁装备等的基础材料。</view>
+    </view>
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/6337ac1e7b3d6bc8f180dde22097087e.png" class="enc-image" style="position: relative; left: 27rpx; top: 614rpx; width: 285rpx; height: 239rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 374rpx; top: 379rpx">青金石矿</view>
+        <view class="enc-text" style="position: relative; left: 374rpx; top: 315rpx">青金石矿开采后掉落青金石，青金石主要用于染色和一些特定的合成配方。</view>
+    </view>
+    <view class="enc-item3">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/ecafb1fa0e446c1043bb99737375e550.png" class="enc-image" style="position: relative; left: 409rpx; top: 1005rpx; width: 287rpx; height: 213rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 37rpx; top: 774rpx; width: 337rpx; display: flex; box-sizing: border-box">煤矿</view>
+        <view class="enc-text" style="position: relative; left: 38rpx; top: 707rpx">煤矿开采后掉落煤炭，煤炭主要用于作为燃料和制作火把等。</view>
+    </view>
+    <view class="enc-item3">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/c817ad9cac734e89977696db63d9131b.png" class="enc-image" style="position: relative; left: 42rpx; top: 768rpx; width: 300rpx; height: 232rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 529rpx">木头</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 475rpx">木头是最基础的方块之一，可以通过砍伐树木得到。木材可用来制作各种基本工具、家具等。</view>
+    </view>
+</view>

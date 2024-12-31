@@ -1,0 +1,38 @@
+<view class="grids">
+  <image src="https://ts1.cn.mm.bing.net/th/id/R-C.40889477f5b59c8bc9b8e5f17d98d829?rik=WZWRooYDHUcdMQ&riu=http%3a%2f%2fwww.downxia.com%2fuploadfiles%2f2021%2f0407%2f20210407012321658.jpg&ehk=Zbs1jq5gpuq0c2SZ%2ba8WczCBKRTg2UkYNCLUCLIliF8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" class="background"></image>
+
+  <navigator class="item" url="/pages/MAP/Cmap/adventure/1" open-type="navigate">
+    <image src="{{image_1}}"mode="widthFix"></image>
+    <text>冒险</text>
+  </navigator>
+
+  <navigator class="item" url="/pages/MAP/Cmap/building/1" open-type="navigate">
+    <image src="{{image_2}}"mode="widthFix"></image>
+    <text>建筑</text>
+  </navigator>
+
+  <navigator class="item" url="/pages/MAP/Cmap/decrypting/1" open-type="navigate">
+    <image src="{{image_3}}"mode="widthFix"></image>
+    <text>解密</text>
+  </navigator>
+
+  <navigator class="item" url="/pages/MAP/Cmap/parkour/1" open-type="navigate">
+    <image src="{{image_4}}"mode="widthFix"></image>
+    <text>跑酷</text>
+  </navigator>
+
+  <navigator class="item" url="/pages/MAP/Cmap/pvp/1" open-type="navigate">
+    <image src="{{image_5}}"mode="widthFix"></image>
+    <text>PVP</text>
+  </navigator>
+
+  <navigator class="item" url="/pages/MAP/Cmap/survival/1" open-type="navigate">
+    <image src="{{image_6}}"mode="widthFix"></image>
+    <text>生存</text>
+  </navigator>
+
+  <navigator url="/pages/MAP/mapseed"open-type="navigate">
+    <button>随机生成地图种子</button>
+  </navigator>
+
+</view>

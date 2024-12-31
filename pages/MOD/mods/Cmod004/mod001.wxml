@@ -1,0 +1,15 @@
+<view class="container" style="width: 564rpx; display: flex; box-sizing: border-box">
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/bkm.mp4" style="position: relative; width: 100%; left: 89rpx; top: -199rpx"></video>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/761114110749e22782cd5c092d0e1a50.jpg" class="background"></image>
+<view class="image-item" style="position: absolute; left: 85rpx; top: 728rpx">
+<image src="{{image001}}" style="position: relative; left: -89rpx; top: -178rpx; height: 320rpx; display: inline-block; box-sizing: border-box; width: 395rpx"></image>
+</view>
+<view class="text-item">
+<text style="position: relative; left: 0rpx; top: 81rpx">mod推荐：宝可梦重铸</text>
+<text style="position: relative; left: 0rpx; top: 81rpx">
+  为我的世界增加了掌机大作口袋妖怪系列游戏中的元素的大型生物模组。
+增加了大量的口袋妖怪，作为训练师你可以通过精灵球捕捉口袋妖怪，训练它们，让它们和别的精灵对战。
+这个模组拥有大量口袋妖怪游戏中的设定和元素，如果你是口袋妖怪迷，那这款模组一定会让你深感喜爱。</text>
+</view>
+<button bind:tap="onFavoriteTap">收藏</button>

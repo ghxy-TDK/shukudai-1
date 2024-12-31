@@ -1,0 +1,18 @@
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/RLCraftDregora.mp4" style="position: relative; left: 75rpx; top: 41rpx; width: 602rpx; display: inline-block; box-sizing: content-box"></video>
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image>
+
+<view class="Rlc" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap"  style="position: relative; left: 341rpx; top: 103rpx">收藏</button>
+    <text class="Rlc-text-titie" style="position: relative; left: -11rpx; top: 50rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Rlc-text" style="position: relative; left: 150rpx; top: 14rpx">10/10</texx>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 79rpx">简介</text>
+    <text class="Rlc-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 98rpx">RLcraft 是一款非常著名的生存挑战整合包，因其极高的难度和丰富的内容而广受欢迎。它大大提升了游戏的难度，加入了大量新的怪物、功能、玩法和现实主义元素。
+    </text>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: 161rpx">特点</text>
+    <text class="Rlc-text" style="position: relative; left: -11rpx; top: 321rpx; width: 611rpx; display: flex; box-sizing: border-box">提供极高的生存挑战，玩家必须管理饥饿、健康等多种生存要素。</text>
+    <text class="Rlc-text" style="width: 564rpx;  position: relative; left: -11rpx; top: 171rpx; height: 37rpx">加入多种复杂的系统，如物理、天气系统等，增加游戏的真实性和难度。</text>
+    <text class="Rlc-text" style="position: relative; left: -11rpx; top: 327rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">非常适合寻求高难度生存体验的玩家，尤其是喜欢挑战的玩家。</text>
+
+</view>
+ 

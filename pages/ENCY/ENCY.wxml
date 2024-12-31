@@ -1,0 +1,26 @@
+<!-- 分类 -->
+<view class="enc" style="height: 1453rpx; display: block; box-sizing: content-box">
+    <!-- 背景 -->
+    <image src="https://s1.imagehub.cc/images/2024/12/23/bbf258be9c80dbb4d3d033b647806275.jpg" class="background"></image>
+    <!-- 类别 -->
+    <navigator class="enc-item" style="position: relative; left: 32rpx; top: 116rpx" url="/pages/ENCY/Cency/encys001">
+    <text class="enc-item-title" style="position: relative; left: 27rpx; top: 19rpx">食物</text>
+    <image class="enc-icon" src="https://s1.imagehub.cc/images/2024/12/23/4110e2bbc8323a0a86e31bbb95fdaa6f.png" style="width: 79rpx; height: 65rpx; display: block; box-sizing: border-box; position: relative; left: -41rpx; top: -33rpx"></image> 
+    </navigator>
+    <view class="enc-item-sub" style="position: relative; left: 375rpx; top: -39rpx">虽是游戏，也得吃饭 </view>
+    <navigator class="enc-item" style="position: relative; left: 375rpx; top: 127rpx" url="/pages/ENCY/Cency/encys002">
+    <text class="enc-item-title" style="position: relative; left: 28rpx; top: 19rpx">工具</text>
+    <image class="enc-icon" src="https://pic.imgdb.cn/item/67696199d0e0a243d4e8a2c5.png" style="width: 56rpx; height: 56rpx; display: flex; box-sizing: border-box; position: relative; left: -28rpx; top: -28rpx"></image>
+    </navigator>
+    <view class="enc-item-sub" style="position: relative; left: 10rpx; top: -41rpx">离开了工具你的生存将变得很困难</view>
+    <navigator class="enc-item" style="position: relative; left: 38rpx; top: 143rpx" url="/pages/ENCY/Cency/encys003">
+    <test class="enc-item-title" style="position: relative; left: 14rpx; top: 19rpx">杂货</test>
+    <image class="enc-icon" src="https://pic.imgdb.cn/item/6769621cd0e0a243d4e8a2f9.png" style="width: 82rpx; height: 60rpx; display: block; box-sizing: border-box; position: relative; left: -56rpx; top: -48rpx"></image>
+    </navigator>
+    <view class="enc-item-sub" style="position: relative; left: 375rpx; top: -26rpx; height: 37rpx; display: flex; box-sizing: border-box">微小却不能忽视</view>
+    <navigator class="enc-item" style="position: relative; left: 347rpx; top: 133rpx" url="/pages/ENCY/Cency/encys004">
+    <test class="enc-item-title" style="position: relative; left: 53rpx; top: 19rpx">方块</test>
+    <image class="enc-icon" src="https://s1.imagehub.cc/images/2024/12/23/da4cc0599fb20ff901faf9f843eb87ef.png" style="width: 77rpx; height: 60rpx; display: block; box-sizing: border-box; position: relative; left: -14rpx; top: -27rpx"></image>
+    </navigator>
+    <view class="enc-item-sub" style="position: relative; left: 0rpx; top: -59rpx">方块在手，天下皆可创</view>
+</view>

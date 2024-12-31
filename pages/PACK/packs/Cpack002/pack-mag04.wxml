@@ -1,0 +1,16 @@
+<image src="https://s1.imagehub.cc/images/2024/12/24/e3fb213eb6f7e0ce9e08e2330b3d0061.png" style="position: relative; left: 68rpx; top: 0rpx"></image>
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image><image src="ub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png"></image>
+<view class="Rlc" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap" style="position: relative; left: 304rpx; top: -458rpx; height: 60rpx; display: block; box-sizing: border-box">收藏</button>
+    <text class="Rlc-text-titie" style="position: relative; left: 4rpx; top: -517rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Rlc-text" style="position: relative; left: 201rpx; top: -556rpx">8/10</texx>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: -522rpx">简介</text>
+    <text class="Rlc-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -522rpx">Create: New Horizon专注于机械、自动化和创意建筑。玩家可以利用不同的机械装置，如齿轮、皮带、风车、齿轮机等，创建复杂的动力系统和自动化设施。这个模组包为玩家提供了更为细致和丰富的机械系统，可以让你从零开始建造庞大的生产线和运输系统，极具挑战和乐趣。
+    </text>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: -449rpx">特点</text>
+    <text class="Rlc-text" style="position: relative; left: 0rpx; top: -313rpx; width: 611rpx; display: flex; box-sizing: border-box">Create 模组的核心是动力和机械传输系统，玩家可以通过风车、水轮机等方式来驱动复杂的机械装置。</text>
+    <text class="Rlc-text" style="width: 564rpx; position: relative; left: 4rpx; top: -472rpx; height: 37rpx">设计和构建自动化工厂、资源运输系统，甚至是复杂的机械设备，如自动农场和精密工具。</text>
+    <text class="Rlc-text" style="position: relative; left: 4rpx; top: -297rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">除了机械，玩家还可以将机械装置与建筑和美学结合，设计出既实用又美观的工业建筑。</text>
+</view>
+ 

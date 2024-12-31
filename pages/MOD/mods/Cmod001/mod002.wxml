@@ -1,0 +1,50 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}" mode="aspectFill"></image>
+  </view>
+  <view class="text1-container">
+    <text>本模组添加了一种名为“连锁采集”的附魔，使连锁采矿更符合原版的风格。拥有该附魔的工具(镐、斧、锹、锄等)能够连锁采集相连的同种方块，默认在潜行状态下停止连锁采集。比附魔及连锁挖掘的逻辑都是可以自行配置的，以适应不同的游玩风格。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>附魔
+可配置项
+附魔的稀有程度
+·附魔的最高等级
+是否作为宝藏
+是否加入战利品表
+能否通过村民交易获得
+能否在附魔台获得
+能否在对书附魔时获得
+获得最低等级附魔的附魔能力最小值获得更高等级附魔的附魔能力递增值
+同其他附魔的兼容性</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}" mode="aspectFill"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image1-container">
+    <image src="{{image003}}" mode="aspectFill"></image>
+  </view>
+  <view class="text3-container">
+    <text>可配置项:
+无附魔时连锁采集的最大数量
+无附魔时连锁采集的最远距离(距离起始方块)每提升一级附魔能够连锁采集的最大数量每提升一级附魔能够连锁采集的最远距离是否连锁采集对角线相邻的同种方块。</text>
+  </view>
+</view>
+<view class="container4">
+  <view class="text4-container">
+    <text>
+是否自动收集掉落物
+是否损耗工具耐久值及损耗乘数是否消耗玩家饥饿值及消耗乘数
+黑白名单
+激活方法(潜行、站立或绑定其它按键)自定义方块组(标签+ID)，</text>
+  </view>
+  <view class="image4-container">
+    <image src="{{image004}}" mode="aspectFill"></image>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/23/17157b1bc1ccdf67b2b4d66fb6d663f2.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

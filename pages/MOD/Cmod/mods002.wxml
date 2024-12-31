@@ -1,0 +1,15 @@
+<view class="container">
+  <image src="https://s1.imagehub.cc/images/2024/12/24/a9077e58305f6c4d7e3abfbbc18891f0.jpg" class="background"></image>
+<navigator class="item" url="/pages/MOD/mods/Cmod002/mod001" open-type="navigate">
+<image src="{{image001}}"mode="widthFix"></image>
+<text>高清修复</text>
+</navigator>
+<navigator class="item" url="/pages/MOD/mods/Cmod002/mod002" open-type="navigate">
+<image src="{{image002}}"mode="widthFix"></image>
+<text>更美观的血条</text> 
+</navigator>
+<navigator class="item" url="/pages/MOD/mods/Cmod002/mod003" open-type="navigate">
+<image src="{{image003}}"mode="widthFix"></image>
+<text>动态环境</text>
+</navigator>
+</view>

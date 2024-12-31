@@ -1,0 +1,43 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>增加更多更精细的画质以及效果设置，改善原版画质和流畅度，并且增加高清纹理和自定义模型支持的模组。
+司时也是低配玩家的福音，部分版本(1.12.2 及以前)能够显著改善 FPS.</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>一些增强画质类的模组，和自定义实体或物品模型和纹理的资源包也要求先安装此基础模组才能正常使用。功能特性
+。让你使用高分辨率的纹理包(Minecrat 1.5.2 及更早的版本，远古版本不支持，后来支持了但有 bug，在 1.6 纹理文件拆分之后就不再存在这种问题
+了):</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text>随机生物(有些纹理包中内置同一生物的不同贴图)开启/关闭动画与粒子效果:
+连接纹理(比如无缝玻璃，不同方块之间的衔接);在视距为 2 区块时也显示天体(太阳、月亮等):
+自定义云、草地、雪地的效果:最高渲染距离调整为 64 区块(原版最高渲染距离根据设备性能而变化);动态光源，可以进入视频设置里设置为启用(具体到 2016年6月6日起发布的版本的新增功能):更多效果可以在视频设置中找到:</text>
+  </view>
+</view>
+<view class="container4">
+  <view class="text4-container">
+    <text>光影功能和 1.16 新增加的“极佳”
+画质不兼容，且“快速渲染”功能在开启后会影响一定的视觉体验，如拥有发光效果的实体可能会显示为一片纯白(整
+个实体呈现为全白而不是描边)
+如果使用超出3级的水下呼吸且安装了高清修复，那么有可能会不停报错 OpenGL Error: 1821，</text>
+  </view>
+  <view class="image4-container">
+    <image src="{{image004}}" mode="aspectFill"></image>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>
+

@@ -1,0 +1,33 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>当玩家使用建筑手杖时可以一次性放置多个方块(最多 1024 个)，将玩家想要修筑的建筑延伸到玩家所面对的一侧。并且可以用额外的核心来升级你的
+于杖，让玩家在其面对的方块背后放置一个方块或一排方块，也可在空中放置方块或非常快速地摧毁很多方块。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>手杖核心其实是拥有神奇力量的宝石，每根建筑手杖除自带的建筑核心外都带有一个空的手杖核心槽，可以让你的建筑手杖发挥额外的作用。
+玩家只需将手杖核心和建筑手杖放在工作台中即可安装。如果玩家需要在核心模式之间切换，要按住“手杖配置键”并用建筑手杖左键单击空气即可。</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text>
+      建筑核心
+在面向玩家的一侧进行快速筑造。最大生效范围取决于手杖材质。在此核心模式下，按住潜行键并滚动鼠标滑轮即可更改放置锁定(水平、垂直、北/南.东/西、无限制)。
+天使核心
+在玩家所面对的方块(或一排方块)的另一侧放置一个(或一排方块)方块。最大生效范围取决于手杖材质。鼠标右键单击可以在半空中放置一个方块。为此，玩家需要将要在半空中放置的方块在副手栏持有。如果玩家在半空中放置方块距离地面的超过 10 个方块时，就不能在半空中放置。
+。</text>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

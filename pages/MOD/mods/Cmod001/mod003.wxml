@@ -1,0 +1,30 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}" mode="aspectFill"></image>
+  </view>
+  <view class="text1-container">
+    <text>·血量条只在生物不被阻挡时显示
+怪物的血量条颜色会跟随其血量值变化(绿色一黄色一红色)。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>显示怪物的属性和护甲信息(比如节肢动物会使用蜘蛛眼作为图标、亡灵会使用腐肉作为图标来表达怪物属性)显示怪物的护甲信息(总盔甲值 =钻石胸甲数 x5+铁胸甲数)鸡骑士、蜘蛛骑士这些特殊组合生物的血量显示为一组
+可以配合团队计分板使用，同队的玩家名字颜色相同
+你可以在 Config 中自由地配置模组内容</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}" mode="aspectFill"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image1-container">
+    <image src="{{image003}}" mode="aspectFill"></image>
+  </view>
+  <view class="text3-container">
+    <text>
+注意:该模组的血量条可能会与部分光影不兼容(如 SEUS)，从而导致贴图错乱，搭配光影一同使用时需谨慎。此 Mod 的配置文件为 neat-client.ison5。</text>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/23/17157b1bc1ccdf67b2b4d66fb6d663f2.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

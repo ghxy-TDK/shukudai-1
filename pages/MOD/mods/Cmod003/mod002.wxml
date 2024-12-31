@@ -1,0 +1,19 @@
+
+<view class="container" style="width: 564rpx; display: flex; box-sizing: border-box">
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/jianghun2.mp4" style="position: relative; width: 100%; left: 89rpx; top: -199rpx"></video>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/d8bc8830d668bd738828014eaead8463.jpg" class="background"></image>
+<view class="image-item" style="position: absolute; left: 85rpx; top: 728rpx">
+<image src="{{image001}}" style="position: relative; left: -82rpx; top: -253rpx; height: 320rpx; display: inline-block; box-sizing: border-box; width: 395rpx"></image>
+</view>
+<view class="text-item">
+<text>mod推荐：匠魂2</text>
+<text style="position: relative; left: 0rpx; top: 44rpx">
+匠魂为 Minecraft 增加了一整套从模具制造、金属冶炼到工具打造的工艺系统。
+全面地重新定义了 Minecraft 的工具合成体系，加入了新的矿石和新工具/物品的打造方法。
+匠魂还引入了一套有别于附魔的工具强化升级体系。
+和原版工具不同，匠魂工具耐久耗尽后不会直接消失，而是变成了破损的材质，不能使用，但是可以修复。同样，匠魂工具不接受原版的附魔体系。
+匠魂工具掉入岩浆和火焰、碰到仙人掌不会消失，掉落到地上不会被系统刷新。
+</text>
+</view>
+<button bind:tap="onFavoriteTap">收藏</button>

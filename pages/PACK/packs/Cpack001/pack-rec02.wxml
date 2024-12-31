@@ -1,0 +1,17 @@
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/ShatteredRIng2.0.mp4" style="position: relative; left: 75rpx; top: 41rpx; width: 602rpx; display: inline-block; box-sizing: content-box"></video>
+
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image>
+
+<view class="Sha" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap"  style="position: relative; left: 341rpx; top: 103rpx">收藏</button>
+    <text class="Sha-text-titie" style="position: relative; left: -11rpx; top: 50rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Sha-text" style="position: relative; left: 150rpx; top: 14rpx">9/10</texx>
+    <text class="Sha-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 79rpx">简介</text>
+    <text class="Sha-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 98rpx">Shattered Ring 2.0 是一款具有高度探索性的整合包，玩家可以进入一个破碎的世界，在其中寻找宝藏、打怪、解谜。它融合了很多新的地形和任务元素，适合喜欢冒险和探索的玩家。
+    </text>
+    <text class="Sha-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: 161rpx">特点</text>
+    <text class="Sha-text" style="position: relative; left: -11rpx; top: 321rpx; width: 611rpx; display: flex; box-sizing: border-box">加入大量新区域和迷宫，以及复杂的任务系统。</text>
+    <text class="Sha-text" style="width: 564rpx;  position: relative; left: -11rpx; top: 171rpx; height: 37rpx">提供了极具挑战性的敌人和Boss战。</text>
+    <text class="Sha-text" style="position: relative; left: -11rpx; top: 327rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">适合喜欢探索、挑战以及解谜的玩家。</text>
+</view>

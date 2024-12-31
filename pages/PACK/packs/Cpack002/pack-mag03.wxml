@@ -1,0 +1,16 @@
+<image src="https://pic.imgdb.cn/item/676a2226d0e0a243d4e8db9a.png" style="position: relative; left: 68rpx; top: 0rpx"></image>
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image><image src="ub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png"></image>
+<view class="Rlc" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap" style="position: relative; left: 304rpx; top: -458rpx; height: 60rpx; display: block; box-sizing: border-box">收藏</button>
+    <text class="Rlc-text-titie" style="position: relative; left: 4rpx; top: -517rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Rlc-text" style="position: relative; left: 201rpx; top: -556rpx">8/10</texx>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: -522rpx">简介</text>
+    <text class="Rlc-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: -522rpx">Dreams Distort Overture 是一款剧情驱动的冒险模组，通常以神秘的梦境或幻想世界为背景。玩家将在其中体验一个富有深度的故事，解锁谜题、探索新区域以及与怪物战斗。
+    </text>
+    <text class="Rlc-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: -449rpx">特点</text>
+    <text class="Rlc-text" style="position: relative; left: 0rpx; top: -313rpx; width: 611rpx; display: flex; box-sizing: border-box">故事通常涉及梦境、现实与幻想的交织，玩家需要通过探索和解谜逐步揭开背后的真相。</text>
+    <text class="Rlc-text" style="width: 564rpx; position: relative; left: 4rpx; top: -472rpx; height: 37rpx">模组通常会创造一个充满幻想元素的世界，包括异世界的生物、魔法以及梦境空间。</text>
+    <text class="Rlc-text" style="position: relative; left: 4rpx; top: -297rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">玩家不仅需要通过战斗击败敌人，还需解开复杂的谜题才能前进。</text>
+</view>
+ 

@@ -1,0 +1,16 @@
+<view class="container" style="width: 564rpx; display: flex; box-sizing: border-box">
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/202412241229.mp4" style="position: relative; width: 100%; left: 89rpx; top: -199rpx"></video>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/d8bc8830d668bd738828014eaead8463.jpg" class="background"></image>
+<view class="image-item" style="position: absolute; left: 85rpx; top: 728rpx">
+<image src="{{image001}}" style="position: relative; left: -93rpx; top: -117rpx; height: 320rpx; display: inline-block; box-sizing: border-box; width: 395rpx"></image>
+</view>
+<view class="text-item">
+<text>mod推荐：幸运方块</text>
+<text style="position: relative; left: 0rpx; top: 117rpx">
+  幸运方块模组虽然只是添加了一一个方块，两种武器，一种药水，但拥有超过一百种可能性!
+简单地打破幸运方块，它将开出意想不到的东西!
+玩家可以期待各种各样的物品、方块、动物(有时是怪物)甚至建筑!
+保证让玩家每一次打开它都收获惊喜!</text>
+</view>
+<button bind:tap="onFavoriteTap">收藏</button>

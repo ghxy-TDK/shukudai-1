@@ -1,0 +1,15 @@
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/Reminiscence.mp4" style="position: relative; left: 75rpx; top: 41rpx; width: 602rpx; display: inline-block; box-sizing: content-box"></video>
+<!-- 背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image>
+<view class="Rem" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap"  style="position: relative; left: 341rpx; top: 103rpx">收藏</button>
+    <text class="Rem-text-titie" style="position: relative; left: -11rpx; top: 50rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Rem-text" style="position: relative; left: 150rpx; top: 14rpx">8/10</texx>
+    <text class="Rem-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 79rpx">简介</text>
+    <text class="Rem-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 98rpx">Reminiscence 是一款复古风格的整合包，注重怀旧和经典元素。它可能加入了老版本的内容、经典的游戏机制和旧时的玩法，让玩家重温《Minecraft》早期的美好时光。
+    </text>
+    <text class="Rem-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: 161rpx">特点</text>
+    <text class="Rem-text" style="position: relative; left: -11rpx; top: 321rpx; width: 611rpx; display: flex; box-sizing: border-box">加入旧版的内容和机制，如旧的战斗系统或物品设计。</text>
+    <text class="Rem-text" style="width: 564rpx;  position: relative; left: -11rpx; top: 171rpx; height: 37rpx">提供一种怀旧的游戏体验，回归经典。</text>
+    <text class="Rem-text" style="position: relative; left: -11rpx; top: 327rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">适合喜欢《Minecraft》早期版本的玩家，或是对历史版本充满情怀的玩家。</text>
+</view>

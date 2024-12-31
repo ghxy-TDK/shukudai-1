@@ -1,0 +1,49 @@
+<view class="enc-left">
+    <!-- 背景 -->
+    <image src="https://pic.imgdb.cn/item/676a54e5d0e0a243d4e90c9e.jpg" class="background" style="position: fixed; left: 0rpx; top: -30rpx"></image>
+    <!-- 第一个工具 -->
+    <view style="height: 0rpx; display: block; box-sizing: border-box" class="enc-item1">
+        <image class="enc-img" src="https://pic.imgdb.cn/item/6769619cd0e0a243d4e8a2c6.png" style="width: 246rpx; display: inline-block; box-sizing: border-box; height: 229rpx; position: relative; left: 42rpx; top: 88rpx"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: -149rpx">石稿</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: -202rpx">由石头制作而成，用于挖掘矿石、木材和其他可破坏方块。比木稿更耐用。</view>
+    </view>
+    <!-- 第二个工具 -->
+    <view class="enc-item2">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/908fec4becf543b3b07dbfdbe29465cd.png" class="enc-image" style="position: relative; left: 37rpx; top: 424rpx; width: 264rpx; height: 262rpx; display: inline-block; box-sizing: border-box"></image>
+        <text class="enc-title" style="position: relative; left: 375rpx; top: 184rpx">铁镐</text>
+        <text class="enc-text" style="position: relative; left: 375rpx; top: 116rpx">由铁锭制作而成，比石稿更耐用且挖掘速度更快。可以挖掘更多种类的矿石（如金矿、钻石矿等）。</text>
+    </view>
+    <!-- 第三个工具 -->
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://pic.imgdb.cn/item/676961e1d0e0a243d4e8a2e0.png" class="enc-image" style="width: 274rpx; display: inline-block; box-sizing: border-box; height: 224rpx; left: 32rpx; top: 180rpx; position: relative"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: -32rpx">钻石稿</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: -117rpx; height: 273rpx; display: flex; box-sizing: border-box">由钻石制作而成，挖掘速度极快且非常耐用，可以挖掘几乎所有矿石和方块，是最强力的工具之一。</view>
+    </view>
+    <!-- 第4个工具 -->
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://pic.imgdb.cn/item/67696199d0e0a243d4e8a2c5.png" class="enc-image" style="position: relative; left: 25rpx; top: 509rpx; width: 273rpx; height: 213rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 316rpx">铁剑</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 237rpx">由铁锭制作而成，比木剑和石剑更强力，用于攻击敌对生物和玩家。</view>
+    </view>
+    <!-- 第5个 -->
+    <view class="enc-item3">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/992892a5d71a28ed69d90d3f2cae3dc6.png" class="enc-image" style="position: relative; left: 27rpx; top: 838rpx; width: 276rpx; height: 210rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 640rpx">钻石头盔</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 535rpx; height: 276rpx; display: flex; box-sizing: border-box">提供强大的防御力，由钻石制作。</view>
+    </view>
+    <view class="enc-item3" style="height: 0rpx; display: block; box-sizing: border-box">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/0a82d3ab4c82e7e1ff7d9c403c9455d4.png" class="enc-image" style="position: relative; left: 27rpx; top: 614rpx; width: 285rpx; height: 239rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 374rpx; top: 379rpx">钻石胸甲</view>
+        <view class="enc-text" style="position: relative; left: 374rpx; top: 315rpx">由钻石制作而成，提供最强的防御力，能够有效减少受到的伤害，是非常高端的装备。</view>
+    </view>
+    <view class="enc-item3">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/6035634f54271c28ec6b495e2254f212.png" class="enc-image" style="position: relative; left: 20rpx; top: 1003rpx; width: 287rpx; height: 213rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 784rpx; width: 337rpx; display: flex; box-sizing: border-box">钻石裤子</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 730rpx">由钻石制作而成，提供高防御力，搭配砖石胸甲使用时，能获得强大的防御效果。</view>
+    </view>
+    <view class="enc-item3">
+        <image src="https://s1.imagehub.cc/images/2024/12/23/5d173f14857b9520773b25667bb1d5d1.png" class="enc-image" style="position: relative; left: 13rpx; top: 778rpx; width: 300rpx; height: 232rpx; display: inline-block; box-sizing: border-box"></image>
+        <view class="enc-title" style="position: relative; left: 375rpx; top: 529rpx">钻石靴</view>
+        <view class="enc-text" style="position: relative; left: 375rpx; top: 475rpx">由钻石制作而成，能够提供高防御力，并减少摔落伤害。</view>
+    </view>
+</view>

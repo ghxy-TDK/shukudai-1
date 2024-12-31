@@ -1,0 +1,40 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(5px); /* 模糊背景图片 */
+  }
+
+
+/* 整个块 */
+/* 题目 */
+.enc-title{
+    width: 45%;  /* 每个格子的宽度为容器宽度的45% */
+    /* height: 150px;  设置每个格子的高度 */
+    background-color: transparent;  /* 设置背景色为透明 */
+    margin-bottom: 10px;  /* 设置每个格子之间的间距 */
+    display: flex;
+    align-items: center;  /* 垂直居中 */
+    justify-content: center;  /* 水平居中 */
+    border-radius: 10px;  /* 设置圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* 设置阴影效果 */
+    font-size: 16px;  /* 字体大小 */
+    color: rgba(233, 76, 115, 0.89); /* 字体颜色 */
+}
+/* 文本内容 */
+.enc-text {
+    width: 45%;  /* 每个格子的宽度为容器宽度的45% */
+    height: 150px;  /* 设置每个格子的高度 */
+    background-color: transparent;  /* 设置背景色为透明 */ 
+    margin-bottom: 10px;  /* 设置每个格子之间的间距 */
+    display: flex;
+    align-items: center;  /* 垂直居中 */
+    justify-content: center;  /* 水平居中 */
+    border-radius: 10px;  /* 设置圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* 设置阴影效果 */
+    font-size: 16px;  /* 字体大小 */
+    color: rgba(22, 6, 6, 0.781); /* 字体颜色 */
+  }

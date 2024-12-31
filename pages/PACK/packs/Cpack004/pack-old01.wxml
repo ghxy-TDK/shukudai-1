@@ -1,0 +1,19 @@
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/Beaute.mp4" style="position: relative; left: 75rpx; top: 41rpx; width: 602rpx; display: inline-block; box-sizing: content-box"></video>
+
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image>
+<view class="bea" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap" style="position: relative; left: 341rpx; top: 102rpx">收藏</button>
+    <text class="bea-text-titie" style="position: relative; left: -11rpx; top: 50rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="bea-text" style="position: relative; left: 150rpx; top: 14rpx">7/10</texx>
+    <text class="bea-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 79rpx">简介</text>
+    <text class="bea-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 98rpx">Beauté 是一款专注于视觉效果和美学的整合包，旨在提升游戏的美观度，包括高质量的资源包、高清纹理、光影效果等。
+    </text>
+    <text class="bea-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: 161rpx">特点</text>
+    <text class="bea-text" style="position: relative; left: -11rpx; top: 321rpx; width: 611rpx; display: flex; box-sizing: border-box">强调游戏的视觉效果，通过资源包、材质包和光影效果大幅提升画质。
+</text>
+    <text class="bea-text" style="width: 564rpx;  position: relative; left: -11rpx; top: 171rpx; height: 37rpx">提供更加细腻的环境和材质，使游戏世界更为美丽。
+</text>
+    <text class="bea-text" style="position: relative; left: -11rpx; top: 327rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">适合喜欢美术、画质优化的玩家。
+</text>
+</view>

@@ -1,0 +1,16 @@
+<video src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/Craftoria.mp4" style="position: relative; left: 75rpx; top: 41rpx; width: 602rpx; display: inline-block; box-sizing: content-box"></video>
+
+<!-- //背景 -->
+<image src="https://s1.imagehub.cc/images/2024/12/24/e9d1e7a940546bd3e7e122dac1afded7.png" class="background"></image>
+<view class="Cra" style="height: 86rpx; display: block; box-sizing: border-box; width: 299rpx; position: relative; left: 21rpx; top: 124rpx">
+    <button class="my-button" bindtap="onFavoriteTap" style="position: relative; left: 341rpx; top: 102rpx">收藏</button>
+    <text class="Cra-text-titie" style="position: relative; left: -11rpx; top: 50rpx; width: 140rpx; display: flex; box-sizing: border-box">推荐指数</text>
+    <texx class="Cra-text" style="position: relative; left: 150rpx; top: 14rpx">8/10</texx>
+    <text class="Cra-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 79rpx">简介</text>
+    <text class="Cra-text" style="width: 672rpx; height: 198rpx; display: flex; box-sizing: border-box; position: relative; left: -11rpx; top: 98rpx">Craftoria 是一款强调创造和建筑的整合包，提供多种工具和资源，帮助玩家在游戏中自由发挥，进行各种创意建设。它提供了更多的建筑素材和建造工具。
+    </text>
+    <text class="Cra-text-titie" style="width: 102rpx; display: flex; box-sizing: border-box; position: relative; left: 4rpx; top: 161rpx">特点</text>
+    <text class="Cra-text" style="position: relative; left: -11rpx; top: 321rpx; width: 611rpx; display: flex; box-sizing: border-box">强调建造和设计，加入了大量的建筑素材和装饰元素。</text>
+    <text class="Cra-text" style="width: 564rpx;  position: relative; left: -11rpx; top: 171rpx; height: 37rpx">提供更广泛的创造性功能和自由度，适合建筑爱好者。</text>
+    <text class="Cra-text" style="position: relative; left: -11rpx; top: 327rpx; width: 672rpx; display: flex; box-sizing: border-box; height: 107rpx">适合喜欢自由建造和创作的玩家。</text>
+</view>

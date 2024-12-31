@@ -1,0 +1,16 @@
+<view class="container">
+  <image src="https://s1.imagehub.cc/images/2024/12/23/9ace6bd286a38f22dc4705aca61dae7d.png" class="background"></image>
+<navigator class="item" url="/pages/MOD/mods/Cmod001/mod001" open-type="navigate">
+<image src="{{image001}}"mode="widthFix"></image>
+<text>JEI管理器</text>
+</navigator>
+<navigator class="item" url="/pages/MOD/mods/Cmod001/mod002" open-type="navigate">
+<image src="{{image002}}"mode="widthFix"></image>
+<text>连锁采集</text> 
+</navigator>
+<navigator class="item" url="/pages/MOD/mods/Cmod001/mod003" open-type="navigate">
+<image src="{{image003}}"mode="widthFix"></image>
+<text>血量显示</text>
+</navigator>
+</view>
+

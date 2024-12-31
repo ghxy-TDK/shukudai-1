@@ -1,0 +1,36 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>更美观的血条,这是一个轻量型的美化模组，他修改了玩家血量的显示方式。
+如果玩家拥有20 点❤以上的生命值，</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>这将不再会显示很多排爱心，而是用不同颜色的等来表示。
+你可以在配置文件里修改成你喜欢的颜色。</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text></text>
+  </view>
+</view>
+<view class="container4">
+  <view class="text4-container">
+    <text></text>
+  </view>
+  <view class="image4-container">
+    <image src="{{image004}}" mode="aspectFill"></image>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

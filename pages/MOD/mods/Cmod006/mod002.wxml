@@ -1,0 +1,36 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>这个模组为生活在世界上的怪物随机赋予暗黑破坏神风格的属性，使它们更难杀死，也更值得杀死，它们会掉落4倍的经验与随机的附魔装备。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>可以在配置文件中修改各生物的属性获得几率、关闭任意属性及是否生成精英怪。
+较强的精英怪刷新在附近时将显示紫色的BOSS体力条及其属性。
+了):</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text>稀有精英怪通常是玩家为了增加游戏难度而添加的mod有些怪物会变成精英怪带上各种buff</text>
+  </view>
+</view>
+<view class="container4">
+  <view class="text4-container">
+    <text>例如隐身/引雷/极速/力量/无敌/再生/剧毒/凋零，</text>
+  </view>
+  <view class="image4-container">
+    <image src="{{image004}}" mode="aspectFill"></image>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

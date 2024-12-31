@@ -1,0 +1,30 @@
+<view class="container1">
+  <view class="image1-container">
+    <image src="{{image001}}"></image>
+  </view>
+  <view class="text1-container">
+    <text>有时候，建造大型建筑可能会有点乏味，而且要付出许多努力和汗水。况且，不是所有人都是伟大的建筑师。Dire 的建筑小帮手模组旨在使建筑变得更容易一些，建筑爱好者的福音,建筑小帮手还提供了拟态材料，可用构建黏膏构建大部分材质的方块。</text>
+  </view>
+</view>
+<view class="container2">
+  <view class="text2-container">
+    <text>1.14 自带充能方块，1.14 以上可以下载充电设备模组;
+也兼容其他 mod 的充电器，例如通用机械、沉浸工程等;同时也可以更改耗电相关的配置文件，1.12 的版本在游戏里的 mod 配置里就能改，1.16 的版本则是单独放在游戏存档文件夹里。该模组在 1.20.1 及以上的版本中更名为“Building Gadgets 2”，但发布于同一个 CurseForge 页面。</text>
+  </view>
+  <view class="image2-container">
+    <image src="{{image002}}"></image>
+  </view>
+</view>
+<view class="container3">
+  <view class="image3-container">
+    <image src="{{image003}}"></image>
+  </view>
+  <view class="text3-container">
+    <text>
+      1.12 没有安装 MEK，EI0 等可以给小帮手充电的模组的话，可以更改为消耗小帮手自己的能量。更改方法:
+找到游戏的主目录下的 config 文件夹(例:L:\MC.minecraft\versions\1.12.2-Forge 14.23.5.2859\config)文件夹里面有个有一个“Building Gadgets.cfg”，使用文本编辑软件打开
+。</text>
+  </view>
+</view>
+<image src="https://s1.imagehub.cc/images/2024/12/24/be52486867184f0e844a5fa3ad0f4fad.jpg" class="background"></image>
+<button bind:tap="onFavoriteTap">收藏</button>

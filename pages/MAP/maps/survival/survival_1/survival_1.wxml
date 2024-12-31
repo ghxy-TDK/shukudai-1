@@ -1,0 +1,42 @@
+<!--pages/MAP/maps/survival/survival_1/survival_1.wxml-->
+<!-- <text>pages/MAP/maps/survival/survival_1/survival_1.wxml</text> -->
+<view class="grids">
+  <image src="https://tse2-mm.cn.bing.net/th/id/OIP-C.2pFYBK6rQ1Y23ZvRybOXIgHaEK?w=276&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" class="background">
+  </image>
+
+  <video style="height: 240px; width:750rpx;"
+    src="https://618-1333697173.cos.ap-guangzhou.myqcloud.com/%E9%98%B6%E6%AE%B5%E6%80%A7%E7%A9%BA%E5%B2%9BI%E4%BB%A3.mp4">
+  </video>
+  <button bind:tap="onFavoriteTap">收藏</button>
+  <view class="container">
+    <view class="header">
+      <text>我的世界地图:阶段性空岛I代  </text>
+      
+    </view>
+    <view class="material-list">
+      <block wx:for="{{materials}}" wx:key="id">
+        <view class="material-item">
+          <image src="{{item.image}}" mode="aspectFill"></image>
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+    <text>剧情简介：</text>
+      <text>你叫阿森，是一位探险家。你进入了一处山洞，里面十分漆</text>
+      <text>黑。</text>
+      <text>你在里面探险的途中，不小心落入了一个洞中。</text>
+      <text>当你再次睁眼，却发现附近有很多巨大的基岩方块。而你在</text>
+      <text>一座空岛上。</text>
+      <text>你意识到你需要在空岛上生存下去。</text>
+      <text>等到你积攒了足够的垫脚方块时，你搭到了离你最近的那个</text>
+      <text>基岩方块那里。</text>
+      <text>上面写了一段字：村庄岛</text>
+      <text>你又看向了下面，赫然写着：</text>
+      <text>解锁需要：64橡木木板、64小麦、1空岛解锁卡。</text>
+      <text>你知道需要这些资源才可以解除对这座岛的封锁。</text>
+      <text>于是你积攒资源，最后解锁了这座岛。</text>
+      <text>解锁的这一刻，你推测这是一项试炼，你需要解锁所有岛屿</text>
+      <text>并打败母暴龙。</text>
+      <text>然后继续生存下去，直到......</text>
+  </view>
+</view>
